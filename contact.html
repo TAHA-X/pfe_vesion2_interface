@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="about.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Home page</title>
+</head>
+<body>
+    <section class="section section1_contact">
+        <header class="shadow">
+            <i id="list_navbar" class="bi bi-list"></i>
+            <i id="close_navbar" class="bi bi-x-lg"></i>
+            <h2 id="logo"><i  class="bi logo_title bi-buildings"></i><span class="logo_title">A</span>chorouk</h2>
+            <nav>
+                <ul>
+                    <li class="link_nav"><a class="link_nav" href="index.html">Home</a></li>
+                    <li class="link_nav"><a class="link_nav" href="about.html">About</a></li>
+                    <li><a class="link_nav" href="projets.html">Projet</a></li>
+                    <li><a class="link_nav" href="guide.html">Guide</a></li>
+                </ul>
+                <ul id="for_responsive_navbar">
+                    <li class="link_nav"><a class="link_nav" href="index.html">Home</a></li>
+                    <li class="link_nav"><a class="link_nav" href="about.html">About</a></li>
+                    <li><a class="link_nav" href="projets.html">Projet</a></li>
+                    <li><a class="link_nav" href="guide.html">Guide</a></li>
+                    <li><a class="link_nav active" href="contact.html">Contact</a></li>
+                </ul>
+                <a  href="contact.html"><button id="contactBtn">Contacter <i class="bi bi-arrow-right"></i></button></a>
+            </nav>
+        </header>
+        <h1 class="title_page">Contacter nous </h1>
+    </section>
+  
+    <section class="section section2_contact">
+         <div class="left">
+            <div  class="title_paragraph"><div class="circle"></div> informations</div> 
+            <p>nous serons contents de repondre vos questions , n'hesidte pas de nous contacter ou visiter nos agences</p>
+            <div class="box_info">
+                <i class="bi icon_title bi-geo-alt"></i>
+                <div>
+                    <span class="title_box_info">Localisation</span> <br> 
+                    <strong>131 Martens Place, Alexandra Hills, Australia.</strong>
+                </div>
+            </div>
+            <div class="box_info">
+                <i class="bi icon_title bi-telephone"></i>
+                <div>
+                    <span class="title_box_info">Appel</span> <br> 
+                    <strong>+212 0678986354</strong>
+                </div>
+            </div>
+            <div class="box_info">
+                <i class="bi icon_title bi-share"></i>
+                <div>
+                    <span class="title_box_info">Suivier nous</span> <br> 
+                    <div class="social_media">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+
+         </div>
+         <div class="right shadow-lg">
+             <form action="">
+                <strong>Quik Contact</strong>
+                <div class="inputs">
+                    <div>
+                        <label for="name">Name *</label>
+                        <input id="name" name="name" type="text">
+                    </div>
+                    <div>
+                        <label for="name">Phone *</label>
+                        <input id="phone" name="phone" type="text">
+                    </div>
+                </div>
+                <div>
+                    <label for="sujet">Sujet *</label>
+                    <input id="sujet" name="sujet" type="text">
+                </div>
+                <div>
+                    <label for="message">Message *</label>
+                    <textarea name="message" id="message" ></textarea>
+                </div>
+                <button id="sendBtn">Envoyer</button>
+             </form>
+         </div>
+    </section>
+
+    <section class="section section_localisation_contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6647.256569024881!2d-7.500765309064213!3d33.588999280785174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cb3c52a851b9%3A0x7e359765c98e5a48!2sAnassi%2C%20Casablanca!5e0!3m2!1sfr!2sma!4v1682500340204!5m2!1sfr!2sma" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    <section class="section_images_about mb-5">
+        <div class="title_paragraph mb-5"><div class="circle"></div> découvrir nos appartements</div>
+        <div class="list_images_about">
+             <img src="imgs/cuisine.jpg"/>
+             <img style="transform:translateX(100%);" src="imgs/salon.jpg">
+             <img src="imgs/room.jpg">
+             <img style="transform:translateX(100%);" src="imgs/balcon.jpg">
+        </div>
+    </section>
+
+    <section class="section section5">
+        <div class="section5_part">
+            <h2 id="logo"><i  class="bi logo_title bi-buildings"></i><span class="logo_title">A</span class="text-danger">chorouk</h2>
+            <div>
+                <i class="bi bi-house-door-fill"></i> <span>Rabat adarissa 145,20000</span>
+            </div>
+            <div>
+                <i class="bi bi-envelope"></i> <span>achorouk@contact.com</span>
+            </div>
+            <div>
+                <span>follow us :</span>
+                <div class="social_media">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="section5_part">
+            <strong>Links</strong>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="section5_part">
+            <strong>Instagram</strong>
+            <div id="imgs">
+                <img src="imgs/footer1.jpg">
+                <img src="imgs/footer2.jpg"/>
+                <img src="imgs/footer3.jpg">
+                <img src="imgs/footer4.jpg">
+                <img src="imgs/footer5.jpg">
+                <img src="imgs/footer6.jpg">
+            </div>
+        </div>
+        <div class="section5_part ">
+            <strong>Call us</strong>
+            <div><i class="bi bi-telephone m-2"></i><span>0658945682</span></div>
+            
+            <span style="color:#d00000;">© achorouk. All rights reserved</span>
+        </div>
+    </section>
+  
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

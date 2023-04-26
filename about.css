@@ -1,0 +1,38 @@
+
+/* section1_about */
+.section1_about{
+    height:50vh; position:relative; width:100%;
+    background-image:url("imgs/about.jpg");
+    background-position:center;
+}
+.section1_about::before{
+    position:absolute; content:""; top:0; left:0; width:100%; height:100%;
+    background-color:rgba(0,0,0,0.4); 
+}
+/* section3_about */
+.section3_about{
+    padding:70px 130px 0px 130px; display:flex;
+    justify-content:space-between;
+}
+.section3_about .section3_about_left{
+    width:50%;  display:flex; flex-direction:column;
+    justify-content:space-between; padding:100px;
+    color:rgb(96, 96, 96);
+}
+.section3_about .section3_about_right{
+    width:45%;
+    height:600px;
+}
+.section3_about .section3_about_right img{
+    width:100%; height:100%;
+}
+/* section_images_about */
+.section_images_about{
+    padding:70px 130px 0px 130px;
+}
+.section_images_about .list_images_about{
+    display:flex; flex-direction:column;
+}
+.section_images_about .list_images_about img{
+    width:50%; height:400px;
+}
